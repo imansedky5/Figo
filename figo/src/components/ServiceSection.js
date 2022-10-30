@@ -1,7 +1,7 @@
 import { Card } from "./Card";
 import { FaSearch } from "react-icons/fa";
 import { FaDesktop } from "react-icons/fa";
-import { FaKeybase } from "react-icons/fa";
+import { FaLightbulb } from "react-icons/fa";
 
 export const ServiceSection = () => {
   return (
@@ -17,8 +17,8 @@ export const ServiceSection = () => {
         info="Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor."
       ></Card>
       <Card
-        icon={<FaKeybase />}
-        title="Web Solution"
+        icon={<FaLightbulb />}
+        title="Web Solutions"
         info="Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor."
       ></Card>
     </div>

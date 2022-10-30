@@ -7,6 +7,13 @@ body {
   margin: auto;
 }
 
+h3 {
+  font-size: 1.5rem;
+  color: hsl(236, 37%, 43%);
+  font-weight: 800;
+
+}
+
 button,
 input {
   background: none;
@@ -96,5 +103,46 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   aspect-ratio: 1 / 1;
+
+}
+
+.card-icon:hover {
+  color: white;
+  background-color: hsl(335, 77%, 57%);
+
+}
+
+
+.features-section {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 73%;
+}
+
+.feature-container {
+  width: 32%;
+  text-align: center;
+
+}
+
+.feature-icon {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, hsl(335, 87%, 51%), hsl(235, 39%, 57%));
+  font-size: 2.8rem;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+
+.feature-icon:hover {
+  background: none;
+  color: hsl(335, 85%, 62%);
+  font-size: 4rem;
 
 }

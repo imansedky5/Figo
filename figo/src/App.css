@@ -1,0 +1,54 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+}
+
+button,
+input {
+  background: none;
+  border: none;
+}
+
+header {
+  background-color: hsl(236, 57%, 28%);
+  background-image: url("../public/images/hero-bg-bottom.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header-container {
+  margin: auto;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.intro {
+  width: 40%;
+  color: white;
+}
+
+.intro h1 {
+  font-size: 3.8rem;
+}
+
+.intro p {
+  font-size: 16px;
+}
+
+.intro button {
+  background: linear-gradient(90deg, hsl(335, 87%, 51%), hsl(29, 99%, 67%));
+  border-radius: 0 25px;
+  padding: 12px 35px;
+  color: white;
+  transition: 0.35s ease;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 17px;
+}
+
+.header-container img {
+  width: 52%;
+}

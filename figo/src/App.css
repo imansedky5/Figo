@@ -9,11 +9,20 @@ body {
   margin: auto;
 }
 
+h1 {
+  font-size: 3.8rem;
+}
+
 h3 {
   font-size: 1.4rem;
   color: hsl(236, 37%, 43%);
   font-weight: 700;
 
+}
+
+p {
+  color: hsl(236, 26%, 43%);
+  font-size: 1em;
 }
 
 button,
@@ -22,10 +31,12 @@ input {
   border: none;
 }
 
-section{
+section {
   width: 80%;
   margin: auto;
   text-align: center;
+  padding-top: 4.5rem;
+  position: relative;
 }
 
 header {
@@ -38,10 +49,10 @@ header {
 
 .header-container {
   margin: auto;
-  padding-top: 2em;
   display: flex;
   justify-content: space-between;
   width: 80%;
+  padding-top: 7rem;
 }
 
 .intro {
@@ -50,11 +61,13 @@ header {
 }
 
 .intro h1 {
-  font-size: 3.8rem;
+  margin-bottom: 2rem;
 }
 
 .intro p {
   font-size: 16px;
+  color: white;
+  margin-bottom: 1.3rem;
 }
 
 .intro button {
@@ -86,8 +99,6 @@ header {
 
 .service-card h3 {
   color: hsl(236, 37%, 43%);
-  font-weight: 800;
-  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -100,7 +111,7 @@ header {
   display: grid;
   place-content: center;
 
-  width: 50%;
+  width: 52%;
   color: hsl(335, 85%, 62%);
   font-size: 2rem;
   background-image: url("../public/images/service-banner-pattern.png");
@@ -122,12 +133,12 @@ header {
   width: 75%;
 }
 
-.features-wrapper{
+.features-wrapper {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  
+
 
 }
 
@@ -149,6 +160,12 @@ header {
   place-content: center;
 }
 
+.feature-container h3,
+.feature-icon {
+  margin-bottom: 0.5em;
+
+}
+
 .feature-icon:hover {
   background: none;
   color: hsl(335, 85%, 62%);
@@ -156,7 +173,7 @@ header {
 
 }
 
-.reviews-wrapper{
+.reviews-wrapper {
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -231,20 +248,74 @@ header {
   font-style: italic;
   font-size: 0.9rem;
 }
-.title{
- color: hsl(236, 37%, 43%);
-  margin-bottom: 4rem;
+
+.title {
+  color: hsl(236, 37%, 43%);
+  margin-bottom: 5rem;
   font-weight: 800;
   font-size: 2rem;
 }
 
-.title::after{
-content: "";
-position: absolute;
-left: 45%;
-top: 60px;
-width: 100px;
-height: 6px;
-border-radius: 10px;
-background: linear-gradient(90deg, hsl(335, 87%, 51%), hsl(235, 39%, 57%));
+.title::after {
+  content: "";
+  position: absolute;
+  left: 44%;
+  top: 135px;
+  width: 100px;
+  height: 6px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, hsl(335, 87%, 51%), hsl(235, 39%, 57%));
+}
+
+.about-section .title::after {
+  left: 0;
+  top: 70px;
+}
+
+.about-section .title {
+  margin-bottom: 3.8rem;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-wrapper {
+  position: relative;
+  width: 48%;
+  text-align: start;
+
+}
+
+.about-section img {
+  width: 48%;
+
+}
+
+.about-section p {
+  margin-bottom: 13px;
+}
+
+.about-section .cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+
+}
+
+.about-section .cards-container div {
+  box-shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
+  width: 32%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 9px;
+
+}
+
+.cards-container h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: hsl(236, 37%, 43%);
+  font-weight: 700;
 }

@@ -4,7 +4,7 @@ import { Title } from "./Title";
 export const ReviewsSection = () => {
   return (
     <section>
-      <Title title="Why Our Agency"></Title>
+      <Title title="Figo Reviews"></Title>
       <div className="reviews-wrapper">
         <Review
           reviewNum="first"

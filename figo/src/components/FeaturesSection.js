@@ -8,7 +8,7 @@ import { Title } from "./Title";
 export const FeaturesSection = () => {
   return (
     <section className="features-section">
-      <Title title="Our Unique Features"></Title>
+      <Title title="Our Features"></Title>
       <div className="features-wrapper">
         <Feature
           icon={<FaLock />}

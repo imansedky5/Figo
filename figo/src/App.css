@@ -10,9 +10,9 @@ body {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: hsl(236, 37%, 43%);
-  font-weight: 800;
+  font-weight: 700;
 
 }
 
@@ -20,6 +20,12 @@ button,
 input {
   background: none;
   border: none;
+}
+
+section{
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 header {
@@ -67,11 +73,8 @@ header {
 }
 
 .cards-container {
-  margin: auto;
-  width: 80%;
   display: flex;
   justify-content: space-between;
-
 }
 
 .service-card {
@@ -116,12 +119,16 @@ header {
 
 
 .features-section {
-  margin: auto;
+  width: 75%;
+}
+
+.features-wrapper{
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 73%;
+  
+
 }
 
 .feature-container {
@@ -149,13 +156,11 @@ header {
 
 }
 
-.reviews-section {
-  margin: auto;
+.reviews-wrapper{
   margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 80%;
 }
 
 .review-container {
@@ -225,4 +230,21 @@ header {
   font-weight: 600;
   font-style: italic;
   font-size: 0.9rem;
+}
+.title{
+ color: hsl(236, 37%, 43%);
+  margin-bottom: 4rem;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.title::after{
+content: "";
+position: absolute;
+left: 45%;
+top: 60px;
+width: 100px;
+height: 6px;
+border-radius: 10px;
+background: linear-gradient(90deg, hsl(335, 87%, 51%), hsl(235, 39%, 57%));
 }

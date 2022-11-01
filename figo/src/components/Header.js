@@ -1,6 +1,9 @@
+import { NavBar } from "./NavBar";
+
 export const Header = () => {
   return (
     <header>
+      <NavBar></NavBar>
       <div className="header-container">
         <div className="intro">
           <h1>We design interfaces that users love</h1>

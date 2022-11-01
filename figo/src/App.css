@@ -52,7 +52,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  padding-top: 7rem;
+  padding-top: 10rem;
 }
 
 .intro {
@@ -75,14 +75,13 @@ header {
   border-radius: 0 25px;
   padding: 12px 35px;
   color: white;
-  transition: 0.35s ease;
   font-size: 1rem;
   font-weight: 100;
   margin-top: 17px;
 }
 
 .header-container img {
-  width: 52%;
+  max-width: 52%;
 }
 
 .cards-container {
@@ -110,7 +109,6 @@ header {
   margin: auto;
   display: grid;
   place-content: center;
-
   width: 52%;
   color: hsl(335, 85%, 62%);
   font-size: 2rem;
@@ -289,7 +287,7 @@ header {
 }
 
 .about-section img {
-  width: 48%;
+  max-width: 48%;
 
 }
 
@@ -318,4 +316,106 @@ header {
   font-size: 1.5rem;
   color: hsl(236, 37%, 43%);
   font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
+  color: hsl(236, 57%, 28%);
+  width: 100%;
+  padding: 18px 0px;
+  z-index: 1;
+}
+
+.logo {
+  width: 40%;
+  text-align: start;
+  padding-left: 35px;
+  font-weight: 800;
+  font-size: 2.2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+  justify-content: space-around;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+footer {
+  padding-top: 5.5rem;
+  color: white;
+
+}
+
+footer p {
+  color: white;
+}
+
+.footer-top {
+
+  background-image: url('../public/images/hero-bg.png'), linear-gradient(90deg, hsl(335, 87%, 51%), hsl(235, 39%, 57%));
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  padding-bottom: 2rem;
+
+}
+
+.footer-agency-section {
+  width: 22.5%;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+footer li {
+  padding-bottom: 20px;
+}
+
+.social-links {
+  width: 40%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.social-links div {
+  font-size: 1.3rem;
+}
+
+footer h4 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.footer-agency-name {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+footer p {
+  font-size: 1.1rem;
+
+}
+
+.communication-links>div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.communication-icon {
+  font-size: 0.9rem;
+  padding-right: 20px;
 }

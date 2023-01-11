@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Figo/figo/static/css/main.c1b74a0f.css",
+    "main.js": "/Figo/figo/static/js/main.bd7a13a3.js",
+    "static/media/hero-bg.png": "/Figo/figo/static/media/hero-bg.c2e8f3db3edb21e8fd5d.png",
+    "index.html": "/Figo/figo/index.html",
+    "main.c1b74a0f.css.map": "/Figo/figo/static/css/main.c1b74a0f.css.map",
+    "main.bd7a13a3.js.map": "/Figo/figo/static/js/main.bd7a13a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1b74a0f.css",
+    "static/js/main.bd7a13a3.js"
+  ]
+}
